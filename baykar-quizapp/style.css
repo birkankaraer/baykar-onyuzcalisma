@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #app {
+    max-width: 600px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #question-title {
+    font-size: 24px;
+  }
+  
+  #choices {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .choice-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: not-allowed;
+  }
+  
+  .choice-btn.active {
+    cursor: pointer;
+  }
+  
+  #timer {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
